@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    background-color: #0f0709;
+    background-image: radial-gradient(circle at 50% 0%, rgba(159, 18, 57, 0.16), transparent 60%);
+    background-attachment: fixed;
+  }
+}
+
+/* Custom sleek crimson scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0709;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b141d;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #591c2b;
+}
